@@ -1,8 +1,8 @@
 ---
 title: "러닝 타입스크립트 파트 1: 개념 [챕터 1] (항해99 사전스터디)"
 date: 2025-01-31 17:00:00 +0800
-categories: [ Programming, GroupStudy ]
-tags: [ Typescript ]
+categories: [ Programming, Learning Typescript ]
+tags: [ Typescript, 항해99 ]
 author: <author_id>   
 ---
 
