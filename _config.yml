@@ -16,8 +16,7 @@ timezone:
 
 title: Brian's Blog # the main title
 
-tagline: 🎓 Master of Information Technology (Business Information Systems)
-         🎓 Bachelors with Honours in Computer Science  # it will display as the subtitle
+tagline: Educational & Technical posts  # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
  Technical and educational blog by Brian
