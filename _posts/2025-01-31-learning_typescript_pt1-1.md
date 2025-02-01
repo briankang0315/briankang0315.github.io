@@ -1,3 +1,16 @@
+---
+title: "러닝 타입스크립트 파트 1: 개념 [챕터 1] (항해99 사전스터디)"
+date: 2025-01-31 17:00:00 +/-TTTT
+categories: [ Programming, GroupStudy ]
+tags: [ Typescript ]
+math: true
+toc: true
+pin: true
+image:
+  path: thumbnail.png
+  alt: image alternative text
+---
+
 ## 러닝 타입스크립트 파트 1: 개념 [챕터 1] (항해99 사전스터디)
 
 현재 다니고있는 회사에서 지원해주는 부트캠프를 시작하기전에 스파르타에서 arrange 해준 사전스터디를 진행하게 되었습니다. (대표님 꾸벅 🙇🏻‍♂️)
