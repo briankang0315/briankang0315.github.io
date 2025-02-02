@@ -19,7 +19,7 @@ author: <author_id>
 ### 챕터 2
 
 #### 2.1 타입의 종류
-타입이란 자바스크립트에서 다루는 값의 <font color='lightgreen'>**형태**</font>에 대한 설명입니다
+타입이란 자바스크립트에서 다루는 값의 <font color='lightgreen'><b>형태</b></font>에 대한 설명입니다
 
 > 형태: 값에 존재하는 property와 method 그리고 내장되어 있는 typeof 연산자가 설명하는 것
 
@@ -39,7 +39,7 @@ author: <author_id>
 IDE에서 변수에 마우스를 올리면, 타입스크립트가 유추한 타입을 보여줍니다!
 ![Screenshot 2025-02-01 at 7.15.53 PM.png](../assets/img/screenshots/learning-typescript/Screenshot%202025-02-01%20at%207.15.53%E2%80%AFPM.png)
 
-<font color ='orange'>**타입 시스템**</font>이란게 존재하는데, 그건 언어가 프로그램에서 가질 수 있는 타입을 이해하는 방법에 대한 규칙 집합이라네요
+<font color ='orange'><b>타입 시스템</b></font>이란게 존재하는데, 그건 언어가 프로그램에서 가질 수 있는 타입을 이해하는 방법에 대한 규칙 집합이라네요
 
 타입스크립트의 타입 시스템의 작동 프로세스는
 1. 코드를 읽고 존재하는 모든 값과 타입을 이해하고
@@ -68,7 +68,7 @@ firstName.length();
 크게 2가지 오류가 있다고 하는데
 
 ##### <font color='orangered'>구문 오류</font>
-_자바스크립트로 변환되는 것을 차단한 경우_
+<i>자바스크립트로 변환되는 것을 차단한 경우</i>
 
 타입스크립트가 코드로 이해할 수 없는 잘못된 구문을 감지했을때, 타입스크립트 파일에서 자바스크립트 파일을 올바르게 <font color='orangered'>생성할 수 없도록 차단</font>합니다.
 물론 강제할 수는 있지만.. 결과가 상당히 다를 수 있답니다.
@@ -96,7 +96,7 @@ TS (타입스크립트 줄여서)에서 함수 호출이나 변수에 값을 제
 
 근데 저도 느꼇지만, any는 정말 되도록이면 쓰지않아야 하는거 같습니다. 타입 검사 기능 (주요 기능중 하나)을 못하니까 쓸모없어지는거죠.
 
-그래서 초깃값을 할당하지 않아도, 변수의 타입을 선언해야 합니다 <font color='gold'>**(Type Annotation)**</font>
+그래서 초깃값을 할당하지 않아도, 변수의 타입을 선언해야 합니다 <font color='gold'><b>(Type Annotation)</b></font>
 
 ```typescript
 let name: string;
@@ -114,7 +114,7 @@ name = 23;
 // Error: Type 'number' is not assignable to type 'string'.
 ```
 
-중복 타입 선언 얘기도 있지만, 불필요하고, 타입이 복잡하면 귀찮다고 하지만, 전 최대한 항상 선언을 해줘야한다는 주의입니다 _(그래놓고 다 빼먹을꺼면서)_
+중복 타입 선언 얘기도 있지만, 불필요하고, 타입이 복잡하면 귀찮다고 하지만, 전 최대한 항상 선언을 해줘야한다는 주의입니다 <s>(그래놓고 다 빼먹을꺼면서)</s>
 #### 2.4 타입 형태
 
 타입스크립트는 변수에 할당된 값의 타입일치를 확인하는 것 이상을 수행합니다
@@ -133,3 +133,25 @@ name.middleName;
 
 이렇듯, 할당 가능성뿐만 아니라, 관련된 문제도 알려줍니다. (미..미..미쳣다)
 
+2015년에 들어와서야 import export 구문이 추가되었다네요 (와 이거 없었으면 어떻게 코드를 공유했을까.. 이런거 보면 정말 새로운게 계속 나오는데 뒤쳐지면 따라 잡는게 힘들겠구나 싶네요)
+
+```typescript
+import { value } from "./values";
+
+export const doubled = value * 2;
+```
+import 나 export가 있는 파일을 <font color='orangered'><b>모듈</b></font>이라고 정의하고, <font color='green'>스크립트</font>를 모듈이 아닌 모든 파일이라고 정의 하고 가겠답니다 
+
+export를 선언에 안붙히면, 그 파일안에서만 사용가능하고, 
+다른 모듈에서 같은 변수 이름을 써도 ㅇㅋ, 어차피 import할때 각 다른 모듈에서 가져오기때문에, 하지만 그 모듈에 다시 같은 이름의 변수를 만들어버리면 안됩니다, 타입 에러 발생합니다.
+
+하지만, 파일이 스크립트라면, 해당 파일을 전역 scope로 간주해서 모든 스크립트가 파일의 내용에 접근할 수 있습니다.
+즉, 스크립트 파일에 선언된 변수는 다른 스크립트 파일에 선언된 변수와 동일한 이름을 가질 수 없습니다.
+
+```typescript
+const shared = "Kang";
+// Error: Cannot redeclare block-scope variable 'shared'
+```
+이런 오류가 표시되면 export, import문을 추가하지 않았기 때문..!
+뭐 스크립트 사양에따라 export import없이 파일을 모듈로 만들어야한다면, export{}; 를 추가해서 강제화해야한답니다.
+<i>(CommonJS 같은건 import export를 인식 못한다고 하네요)</i>
