@@ -4,6 +4,10 @@ icon: fas fa-info-circle
 order: 4
 ---
 
+🎓 BSc (Hons) Computer Science  University of Warwick 24’
+
+🎓 MSc Information Technology (Business Information System) 26’
+
 > My passion lies at the intersection of management and development.
 > With a sense of **creativity** shaped by my early exposures,
 > a background in **IT and development** through my studies and experience,
@@ -17,3 +21,4 @@ its potential.
 >
 >I see this space as my playground, a way to keep myself on track towards becoming the professional I strive to be.
 
+<iframe src="{{ '/assets/success_chart.html' | relative_url }}" width="800" height="600"></iframe>
