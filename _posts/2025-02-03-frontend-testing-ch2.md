@@ -184,12 +184,12 @@ Kent C. Dodds가 만든 모델로서 <font color="seagreen">통합 테스트의 
 
 #### 테스트가 없어 refactoring이 불안한 경우
 
-테스트 코드가 없으면 리팩토링이 불안할 수 있다는건 느껴본 사실, 그럴땐 먼저 <font color="aqua">릴리스된 기능을 목록으로 정리</font>해야 한다.
-정리가 됐다면 변경 전후로 결함이 발생하지 않았는지 검증하는 <font color="aqua">회귀 테스트를 작성</font>한다.
+테스트 코드가 없으면 리팩토링이 불안할 수 있다는건 느껴본 사실, 그럴땐 먼저 <font color="aquagreen">릴리스된 기능을 목록으로 정리</font>해야 한다.
+정리가 됐다면 변경 전후로 결함이 발생하지 않았는지 검증하는 <font color="aquagreen">회귀 테스트를 작성</font>한다.
 그러고나선 자신감있게 리팩토링이 가능하다.
 
 웹 API server에 대한 의존성이 깔끔하게 분뢰되지 않으면 테스트 작성이 어렵다.
-그래서 <font color="aqua">MOCK 서버를 활용</font>해서 통합테스트를 실시한다. 구현 코드를 수정하지 않아도 테스트할 수 있어 리팩터링 전 테스트를 작성하고 싶은 개발자에 유용하다.
+그래서 <font color="aquagreen">MOCK 서버를 활용</font>해서 통합테스트를 실시한다. 구현 코드를 수정하지 않아도 테스트할 수 있어 리팩터링 전 테스트를 작성하고 싶은 개발자에 유용하다.
 특히 이미 릴리스된 프로젝트에서 효과적이다.
 
 통합 테스트가 늘어날수록 안심하고 리팩터링 할 수 있는 기능도 많아진다.
@@ -198,16 +198,16 @@ Kent C. Dodds가 만든 모델로서 <font color="seagreen">통합 테스트의 
 #### Responsive 하게 제작된 프로젝트
 모바일 까지 수정되는 상황이 발생한다 (정말 눈물납니다 이거)
 반응형 웹은 테스팅 라이브러리만으로 세밀한 테스트가 어렵다. 디바이스간 다른 스타일을 제공하는 경우, 렌더링 결과를 검증할 브라우저 테스트가 필요하다.
-이때 하는것이 <font color="aqua">시각적 회귀 테스트</font>다.
+이때 하는것이 <font color="aquagreen">시각적 회귀 테스트</font>다.
 
 스토리북은 UI 컴포넌트 단위로 시각적 회귀 테스트가 가능하다. 훨씬 효율적이다. (써봤는데 이거 재밌습니다)
 
 #### DB를 포함한 E2E Test가 필요한 경우
-실제 API 서버를 사용해 E2E를 하고 싶으면 <font color="aqua">테스트용 staging environment</font>를 사용해야 한다.
+실제 API 서버를 사용해 E2E를 하고 싶으면 <font color="aquagreen">테스트용 staging environment</font>를 사용해야 한다.
 실제로 배포할 환경에 가까운 형태로 만든 테스트용 환경을 의미한다. 
 
-테스트 엔지니어가 릴리스하기 전에 <font color="aqua">계획서를 보면서 수동</font>으로 하기도 하고, 브라우저를 사용한 <font color="aqua">UI 자동화 방식</font>으로 테스트하는 경우도 있다. 
-물론 staging environment없이 할 수 있다. 테스트할 시스템을 <font color="aqua">컨테이너화해 CI환경에서 실행 후 연동 중인 여러 시스템과 함께 테스트</font>하는 것이다. 
+테스트 엔지니어가 릴리스하기 전에 <font color="aquagreen">계획서를 보면서 수동</font>으로 하기도 하고, 브라우저를 사용한 <font color="aquagreen">UI 자동화 방식</font>으로 테스트하는 경우도 있다. 
+물론 staging environment없이 할 수 있다. 테스트할 시스템을 <font color="aquagreen">컨테이너화해 CI환경에서 실행 후 연동 중인 여러 시스템과 함께 테스트</font>하는 것이다. 
 환경 구축 비용이 적고, 혼자서도 할 수 있는 장점이 있다.
 ![Screenshot 2025-02-03 at 4.57.36 PM.png](../assets/img/screenshots/frontend-testing/Screenshot%202025-02-03%20at%204.57.36%E2%80%AFPM.png)
 
