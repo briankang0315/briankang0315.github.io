@@ -158,6 +158,7 @@ anti-pattern으로 자주 언급되는 테스트 모델, <font color="seagreen">
 Mike Cohn의 저서 [경험과 사례로 풀어낸 성공하는 애자일](https://product.kyobobook.co.kr/detail/S000001032930)에서 등장한 모델로 <font color="seagreen">하층부 테스트의 비중이 높을수록</font> 더욱 안정적이고 가성비 높은 테스트가 가능하다는것이 핵심이다.
 
 Browser를 포함하는 상층부 테스트는 실행 시간이 길어서 신속성이 떨어지는 반면, 하층부는 실행시간이 짫아 실행 빈도가 높아서 안정성도 높아진다. 
+
 ![Screenshot 2025-02-03 at 4.32.45 PM.png](../assets/img/screenshots/frontend-testing/Screenshot%202025-02-03%20at%204.32.45%E2%80%AFPM.png)
 
 #### 테스팅 트로피
