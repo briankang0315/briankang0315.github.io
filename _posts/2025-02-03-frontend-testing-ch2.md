@@ -175,8 +175,8 @@ Browser를 포함하는 상층부 테스트는 실행 시간이 길어서 신속
 Kent C. Dodds가 만든 모델로서 <font color="seagreen">통합 테스트의 중점</font>을 두는 모델이다.
 
 단일 UI component로 구현되는 기능은 거의 없다, 버튼을 누르면 외부 API호출하는 기능도 여러 조합으로 이루어지는것 처럼. 그리고 모든 프론트 기능은 interaction에서 시작한다. 그래서 
-테스팅 트로피에는 interaction을 기점으로 한 통합 테스트 비중이 높을수록 더욱 우수하다고 주장한다.
-테스팅 library와 제스트를 사용하면 headless browser없이도 interaction을 재현해 할 수 있어 실행 속도도 빠르면서 실제 제품과 유사한 테스트가 가능하다.
+테스팅 트로피에는 interaction을 기점으로 한 <font color="seagreen">통합 테스트 비중이 높을수록</font> 더욱 우수하다고 주장한다.
+테스팅 library와 제스트를 사용하면 headless browser없이도 interaction을 재현해 할 수 있어 실행 속도도 빠르면서 <font color="seagreen">실제 제품과 유사한 테스트</font>가 가능하다.
 
 ![Screenshot 2025-02-03 at 4.35.45 PM.png](../assets/img/screenshots/frontend-testing/Screenshot%202025-02-03%20at%204.35.45%E2%80%AFPM.png)
 
