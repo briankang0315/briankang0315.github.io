@@ -31,6 +31,8 @@ author: <author_id>
 #### <font color="cornflowerblue"><b>정적 분석</b></font>
 TS나 ESLint가 제공하는 기능을 활용하는데 <font color="lightcoral">각 모듈 내부의 검증</font>뿐만 아니라 2~3 검증, 3~4 검증처럼 <font color="lightcoral">인접 모듈을 연계</font>해 사용할 때의 문제점도 검증한다
 
+코드를 실행하지 않고 코드의 문제를 발견하는 방법이다. 
+
 Typescript를 활용하는 static analysis는 버그를 조기에 발견하게 해준다. type inference는 런타임 작동을 예측해줘서 유용하다. 예로서는 if 문 분기에 타입 추론을 적용되면 값을 안전하게 다룰 수 있다.
 
 ```typescript
@@ -43,11 +45,19 @@ function getMessage(name: string | undefined) {
   return `Hello ${name}`;
 }
 ```
-함수의 return값이 생각한 타입과 일치하는지 검증할 때도 도움이 된다.
-
-예외 발생 처리 유무에 따라 함수의 반환 타입 추론이 바뀐다.
+이렇게 하면 런타임에서 예상치 못함 undefined 에러를 막을 수 있다. 또한 함수의 return 타입이 예상과 다른 경우 TS가 경고를 준다.
 ```typescript
-//// throw new Error('invalid type')
+function getNumber(value: number | null): number{
+  if (value === null){
+    throw new Error('invalid value');
+  }
+  return value; // 무조건 적으로 value가 number타입 이게 된다
+}
+```
+이렇듯 예외 케이스를 명시해주면, value가 null일 가능성을 사라지게 해서 문제가 생기는걸 방지한다
+
+```typescript
+// throw new Error('invalid type')
 ```
 <i>ESLint</i>도 정적 분석 도구 중 하나로, 부적절한 구문을 수정해서 잠재적 버그를 사전에 방지합니다. 
 
@@ -174,12 +184,12 @@ Kent C. Dodds가 만든 모델로서 <font color="seagreen">통합 테스트의 
 
 #### 테스트가 없어 refactoring이 불안한 경우
 
-테스트 코드가 없으면 리팩토링이 불안할 수 있다는건 느껴본 사실, 그럴땐 먼저 릴리스된 기능을 목록으로 정리해야 한다.
-정리가 됐다면 변경 전후로 결함이 발생하지 않았는지 검증하는 회귀 테스트를 작성한다.
+테스트 코드가 없으면 리팩토링이 불안할 수 있다는건 느껴본 사실, 그럴땐 먼저 <font color="aqua">릴리스된 기능을 목록으로 정리</font>해야 한다.
+정리가 됐다면 변경 전후로 결함이 발생하지 않았는지 검증하는 <font color="aqua">회귀 테스트를 작성</font>한다.
 그러고나선 자신감있게 리팩토링이 가능하다.
 
 웹 API server에 대한 의존성이 깔끔하게 분뢰되지 않으면 테스트 작성이 어렵다.
-그래서 MOCK 서버를 활용해서 통합테스트를 실시한다. 구현 코드를 수정하지 않아도 테스트할 수 있어 리팩터링 전 테스트를 작성하고 싶은 개발자에 유용하다.
+그래서 <font color="aqua">MOCK 서버를 활용</font>해서 통합테스트를 실시한다. 구현 코드를 수정하지 않아도 테스트할 수 있어 리팩터링 전 테스트를 작성하고 싶은 개발자에 유용하다.
 특히 이미 릴리스된 프로젝트에서 효과적이다.
 
 통합 테스트가 늘어날수록 안심하고 리팩터링 할 수 있는 기능도 많아진다.
@@ -188,21 +198,21 @@ Kent C. Dodds가 만든 모델로서 <font color="seagreen">통합 테스트의 
 #### Responsive 하게 제작된 프로젝트
 모바일 까지 수정되는 상황이 발생한다 (정말 눈물납니다 이거)
 반응형 웹은 테스팅 라이브러리만으로 세밀한 테스트가 어렵다. 디바이스간 다른 스타일을 제공하는 경우, 렌더링 결과를 검증할 브라우저 테스트가 필요하다.
-이때 하는것이 시각적 회귀 테스트다.
+이때 하는것이 <font color="aqua">시각적 회귀 테스트</font>다.
 
 스토리북은 UI 컴포넌트 단위로 시각적 회귀 테스트가 가능하다. 훨씬 효율적이다. (써봤는데 이거 재밌습니다)
 
 #### DB를 포함한 E2E Test가 필요한 경우
-실제 API 서버를 사용해 E2E를 하고 싶으면 테스트용 staging environment를 사용해야 한다.
+실제 API 서버를 사용해 E2E를 하고 싶으면 <font color="aqua">테스트용 staging environment</font>를 사용해야 한다.
 실제로 배포할 환경에 가까운 형태로 만든 테스트용 환경을 의미한다. 
 
-테스트 엔지니어가 릴리스하기 전에 계획서를 보면서 수동으로 하기도 하고, 브라우저를 사용한 UI 자동화 방식으로 테스트하는 경우도 있다. 
-물론 staging environment없이 할 수 있다. 테스트할 시스템을 컨테이너화해 CI환경에서 실행 후 연동 중인 여러 시스템과 함께 테스트하는 것이다. 
+테스트 엔지니어가 릴리스하기 전에 <font color="aqua">계획서를 보면서 수동</font>으로 하기도 하고, 브라우저를 사용한 <font color="aqua">UI 자동화 방식</font>으로 테스트하는 경우도 있다. 
+물론 staging environment없이 할 수 있다. 테스트할 시스템을 <font color="aqua">컨테이너화해 CI환경에서 실행 후 연동 중인 여러 시스템과 함께 테스트</font>하는 것이다. 
 환경 구축 비용이 적고, 혼자서도 할 수 있는 장점이 있다.
 ![Screenshot 2025-02-03 at 4.57.36 PM.png](../assets/img/screenshots/frontend-testing/Screenshot%202025-02-03%20at%204.57.36%E2%80%AFPM.png)
 
-그렇지만 이거 하려면 E2E framework에다 컨테이너 가상화지식, 연관 시스템 설정 지식이 필요........ 
+<font color="orange">그렇지만 이거 하려면 E2E framework에다 컨테이너 가상화지식, 연관 시스템 설정 지식이 필요........ </font>
 
 
 마치며, 여러 종류의 테스트를 작성하다보면 중복이 있다, 그럴때 storybook or E2E test가 중요한 프로젝트면, UI component 테스트는 오류 패턴을 검증하는것으로도 충분하다.
-테스트가 너무 많으면 과감히 줄이라. 생각보다 많이 필요하지 않다. 
+테스트가 너무 많으면 과감히 줄이라. 생각보다 많이 필요하지 않다라고 한다.
