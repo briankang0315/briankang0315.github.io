@@ -8,6 +8,8 @@ order: 4
 
 🎓 MIT Information Technology (Business Information System) 26’
 
+🇰🇷 (2001 ~ 2011) -> 🇲🇾 (2011 ~ 2020) -> 🇬🇧 (2020 ~ 2024) -> 🇦🇺 (2025 ~ Present) 
+
 > My passion lies at the intersection of management and development.
 > With a sense of **creativity** shaped by my early exposures,
 > a background in **IT and development** through my studies and experience,
