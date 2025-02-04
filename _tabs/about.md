@@ -6,7 +6,7 @@ order: 4
 
 🎓 BSc (Hons) Computer Science  University of Warwick 24’
 
-🎓 MSc Information Technology (Business Information System) 26’
+🎓 MIT Information Technology (Business Information System) 26’
 
 > My passion lies at the intersection of management and development.
 > With a sense of **creativity** shaped by my early exposures,
