@@ -1,6 +1,6 @@
 ---
 title: "리액트 스터디 [컴포넌트, JSX] (항해99 사전스터디)"
-date: 2025-02-11 21:00:00 +1100
+date: 2025-02-07 21:00:00 +1100
 categories: [ Programming, React ]
 tags: [ Frontend, 실무, 항해99 ]
 author: <author_id>   
