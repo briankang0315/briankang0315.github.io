@@ -236,12 +236,18 @@ expect(() => add(100, -10)).toThrow(Error); // 발생한 예외가 Error를 상�
 ```toBeFalsy```는 거짓.
 
 각 매처 앞에 ```not```을 붙히면 반전시킬 수 있다.
-```expect(0).not.toBeTruthy();```
 
-```null```, ```undefined```도 ```toBeFalsy```와 일치한다
+```typescript
+ expect(0).not.toBeTruthy();
+```
+
+null , undefined도 toBeFalsy 와 일치한다
 하지만, null 인지 undefined인지 검증하고 싶을땐, 
-```expect(null).toBeNull();```
-```expect(undefined).not.toBeUndefined();```
+
+```typescript 
+expect(null).toBeNull(); 
+expect(undefined).not.toBeUndefined();
+```
 을 사용하는 것이 좋다
 
 #### 수치 검증 equality
