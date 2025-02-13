@@ -165,7 +165,7 @@ jest.mock("./fetchers");
 jest.spyOn(Fetchers, "getMyProfile") // (테스트할 객체, 함수 이름) 
 ```
 
-데이터 취득 성공을 재현하려면 
+##### 데이터 취득 성공 재현 
 
 ```typescript
 jest.spyOn(Fetchers, "getMyProfile").mockResolvedValueOnce({
@@ -177,3 +177,67 @@ jest.spyOn(Fetchers, "getMyProfile").mockResolvedValueOnce({
 취득 성공 (resolve)응답으로 기대하는 객체를 ```mockResolvedValueOnce```에 지정한다
 유지보수 뛰어남.
 
+```typescript
+test("데이터 취득 성공 시: 사용자 이름이 없는 경우", async() => {
+  // getMyProfile이 resolve되었을때 값을 재현
+  jest.spyOn(Fetchers, "getMyProfile").mockResolvedValueOnce({
+    id:"12312412451"
+    email: 'testtest@test.com',
+  });
+  await expect(getGreet()).resolves.toBe("Hello, anonymous user");
+});
+
+test("데이터 취득 성공 시: 사용자 이름이 있는 경우", async () => {
+  // getMyProfile이 resolve되었을때 값을 재현
+  jest.spyOn(Fetchers, "getMyProfile").mockResolvedValueOnce({
+    id: "12312412451"
+    email: 'testtest@test.com',
+    name: 'Brian'
+  });
+  await expect(getGreet()).resolves.toBe("Hello, Brian");
+});
+```
+##### 데이터 취득 실패 재현 
+
+HTTP 상태 코드가 200~299 외 값일땐 (res.ok가 falsy) 함수에서 예외를 발생시킨다
+
+data와 함께 예외를 발생시키면, getMyProfile 함수가 반환하는 Promise는 reject된다
+
+```typescript
+export const httpError: HttpError = {
+  err: {message: 'internal server error'},
+};
+```
+
+이게 오류 객체인데, ```mockRejectedValueOnce``` 인수로 getMyProfile 함수의 reject를 재현하는 stub을 구현
+
+```typescript
+jest.spyOn(Fetchers, "getMyProfile").mockRejectedValueOnce(httpError);
+```
+
+이거 덕에 데이터 취득 실패시 관련 코드가 어떻게 작동하는지 테스트 할 수 있게 된다
+
+```typescript
+test("데이터 취득 실패 시", async() => {
+  jest.spyOn(Fetchers, "getMyProfile").mockRejectedValueOnce(httpError);
+  await expect(getGreet()).rejects.toMatchObject({
+    err: { message: "internal server error"},
+  });
+});
+```
+
+여기에 추가로 예외가 발생하고 있는지 검증하고 싶다면, 
+
+```typescript
+test("데이터 취득 실패 시 오류가 발생한 데이터와 함께 예외 throw",
+async () => {
+  expect.assertions(1);
+  jest.spyOn(Fetchers, "getMyProfile").mockRejectedValueOnce(httpError);
+  try{
+    await getGreet();
+  } catch (err){
+    expect(err).toMatchObject(httpError);
+  }
+});
+
+```
