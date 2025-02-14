@@ -18,7 +18,7 @@ author: <author_id>
 
 ---
 
-### Props
+## Props
 
 컴포넌트는 props를 이용해 서로 통신합니다.
 
@@ -26,14 +26,14 @@ author: <author_id>
 
 객체, 배열, 함수를 포함한 모든 Javascript 값을 전달할 수 있습니다.
 
-#### 친숙한 props
+### 친숙한 props
 JSX 태그에 전달하는 정보가 props입니다
 
 예를 들어 className, src, alt, width, height는 ```<img>``` 태그에 전달할 수 있습니다.
 
 이건 이제 이미 존재하는 태그이기에, props들이 미리 정의되어 있습니다.
 
-#### 컴포넌트에 props 전달하기
+### 컴포넌트에 props 전달하기
  
 단계가 2개가 있습니다
 1. Child component에 props 전달하기
@@ -90,7 +90,7 @@ function Avatar({person, size=100}){
 }
 ```
 
-#### Spread ... 로 props 전달
+### Spread ... 로 props 전달
 때때로 반복적인 props가 있습니다.
 많은 것들도 있을 수 있기에 이런 spread 문법이 합리적일 수 있습니다. 
 그래도 제한적으로 사용하세요.
@@ -105,7 +105,7 @@ function Profile(props) {
 }
 ```
 
-#### Child를 JSX 전달하기
+### Child를 JSX 전달하기
 
 내장된 브라우저 태그는 중첩하는것이 일반적
 ```typescript
@@ -128,5 +128,41 @@ children prop을 가지고 있는 컴포넌트는 부모 컴포넌트가 임의�
 
 > props는 변경할 수 없습니다. 상호작용이 필요한 경우 state를 설정해야 합니다.
 
-### State
+## State
+버튼을 만들었다고 칩시다! 
+
+```handleClick``` 같은 event handler가 있는데, 지역 변수 index를 업데이트 하고 있습니다,
+
+하지만 눌렀을때 아무런 변화도 일어나지 않습니다. 적어도 화면에서는요
+
+이건 
+1. 지역 변수는 렌더링 간에 유지되지 않는다
+2. 지역 변수를 변경해도 렌더링을 일으키지 않습니다. 
+
+컴포넌트를 새로운 데이터로 업데이트하기 위해선 2가지가 필요합니다
+
+1. 렌더링 사이에 데이터 유지
+2. 렌더링 유발
+
+이걸 충족시켜주는게 바로 state입니다
+
+### useState()
+(제일 기본적인)
+```useState()```를 사용해서 state를 만들어줍니다
+
+```typescript
+const [name, setName] = useState("동현");
+```
+
+useState()라는 함수는 리액트에만 존재하는 기능입니다 그리고 이건 일종의 훅 HOOK 이죠.
+
+#### 사용법
+
+```const [ value, setValue ] = useState(초깃값)```
+
+const로 선언을 하고, [] 배열안에 state의 이름, set을 붙힌 state이름.
+그리고 useState()안에 처음 initial value값을 넣어줍니다.
+
+state를 변경하고 싶다면, setName(바꾸는값)을 해주면 됩니다. 
+물론 UI상호작용을 통해서 되게 해야죠.
 
