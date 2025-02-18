@@ -2,7 +2,7 @@
 title: "리액트 스터디 [Hooks] (항해99 사전스터디)"
 date: 2025-02-17 13:00:00 +1100
 categories: [ Programming, React ]
-tags: [ Frontend, 실무, 항해99 ]
+tags: [ Frontend, 실무, 항해99, React ]
 author: <author_id>   
 ---
 

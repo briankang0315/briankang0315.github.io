@@ -2,7 +2,7 @@
 title: "리액트 스터디 [소개, 문법] (항해99 사전스터디)"
 date: 2025-02-05 22:00:00 +0800
 categories: [ Programming, React ]
-tags: [ Frontend, 실무, 항해99 ]
+tags: [ Frontend, 실무, 항해99, React ]
 author: <author_id>   
 ---
 
