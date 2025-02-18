@@ -76,6 +76,7 @@ useEffect는 외부 시스템과 컴포넌트를 동기화하는 React Hook입�
 ```typescript
 const cachedValue = useMemo(calculateValue, dependencies)
 ```
+
 ### useCallback
 리렌더링 간에 함수 정의를 캐싱
 - 함수가 리렌더링 때마다 새로 정의되는 것을 방지
