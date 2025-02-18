@@ -34,6 +34,8 @@ const [state, dispatch] = useReducer(reducer, initialArg, init?)
 
 ## 컴포넌트로부터 정보를 전달 받음
 
+### useContext 
+
 Context는 컴포넌트가 Props를 전달하지 않고도 멀리 있는 부모 컴포넌트로부터 정보를 받을 수 있게 해줍니다.
 - Context를 통해 멀리 떨어진 컴포넌트에도 데이터 전달 가능
 - Props drilling 없이 공유할 정보(예: 테마, 사용자 정보) 관리
