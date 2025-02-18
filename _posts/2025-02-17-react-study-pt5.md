@@ -1,0 +1,73 @@
+---
+title: "리액트 스터디 [Hooks] (항해99 사전스터디)"
+date: 2025-02-17 13:00:00 +1100
+categories: [ Programming, React ]
+tags: [ Frontend, 실무, 항해99 ]
+author: <author_id>   
+---
+
+ 
+State를 통해 컴포넌트는 사용자 입력과 같은 정보를 기억할 수 있습니다.
+
+폼 컴포넌트는 state를 사용해 입력값을 저장할 수 있고, 이미지 컴포넌트는 선택한 이미지 인덱스를 저장할 수 있습니다.
+
+## 컴포넌트에 State 추가
+
+### useState
+
+직접 업데이트할 수 있는 State 변수를 선언합니다
+
+```typescript
+const [state, setState] = useState(initialState)
+```
+
+### useReducer 
+
+Reducer function 내부의 업데이트 로직을 사용하여 State 변수를 선언합니다
+
+```typescript
+const [state, dispatch] = useReducer(reducer, initialArg, init?)
+```
+
+## 컴포넌트로부터 정보를 전달 받음
+
+Context는 컴포넌트가 Props를 전달하지 않고도 멀리 있는 부모 컴포넌트로부터 정보를 받을 수 있게 해줍니다.
+
+```typescript
+const value = useContext(SomeContext)
+```
+
+## 정보 보유
+
+컴포넌트가 렌더링에 사용되지 않는 일부 정보를 보유할 수 있습니다. 
+Ref는 업데이트를 해도 컴포넌트가 다시 렌더링 되지 않습니다
+Ref는 React패러다임의 탈출구입니다. 
+내장된 browser api 같이, react가 아닌 시스템으로 작업해야 할 때 유용합니다.
+
+### useRef
+```typescript
+const ref = useRef(initialValue)
+```
+
+## 외부 시스템 연결, 동기화
+
+### useEffect
+```typescript
+useEffect(setup, dependencies?)
+```
+useEffect는 외부 시스템과 컴포넌트를 동기화하는 React Hook입니다.
+
+## 캐싱
+
+### useMemo
+
+리렌더링 사이에 계산 결과 캐싱
+```typescript
+const cachedValue = useMemo(calculateValue, dependencies)
+```
+### useCallback
+리렌더링 간에 함수 정의를 캐싱
+
+```typescript
+const cachedFn = useCallback(fn, dependencies)
+```

@@ -146,3 +146,4 @@ test("버튼을 클릭하면 이벤트 핸들러가 실행된다", () => {
   expect(mockFn).toHaveBeenCalled();
 });
 ```
+
