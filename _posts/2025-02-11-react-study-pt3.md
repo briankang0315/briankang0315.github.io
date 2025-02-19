@@ -46,7 +46,7 @@ export default function Profile() {
       size = {100}
     />
   );
-}
+};
 ```
 
 이렇게 하면 Avatar에서 props를 읽을수 있습니다.
