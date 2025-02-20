@@ -255,7 +255,7 @@ TS에 타입을 유추할때 read-only가 가능한 값 형식을 사용하도�
 ```typescript
 const unionArray = [1157, "Tomoe"]; // : (string | number)[]
 
-const unionArray = [1157, "Tomoe"]; // : readonly [1157, "Tomoe"]
+const readonlyTuple = [1157, "Tomoe"] as const; // : readonly [1157, "Tomoe"]
 ```
 
 유연한 크기의 배열을 고정된 크기의 튜플로 전환도 하지만
