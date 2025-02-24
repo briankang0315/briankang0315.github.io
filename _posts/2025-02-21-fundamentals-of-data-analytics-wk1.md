@@ -1,7 +1,7 @@
 ---
 title: "Fundamentals of Data Analytics (32130) Week 1"
 date: 2025-02-21 09:00:00 +1100
-categories: [ Masters, Management ]
+categories: [ Masters, Data Analytics ]
 tags: [ 석사, Masters, Data Analytics, "32130" ]
 author: <author_id>   
 ---
@@ -101,6 +101,76 @@ Walmart analysed its sales data and found beer and diapers are being purchased t
 they theorised that a number of fathers of young children were purchasing those two together on the way home.
 As a result, Walmart were able to increase sales by placing those two items next to each other in their stores.
 
+## Data Finding
+Findings from data is called a <i>model</i>
+
+Models help to capture the essense of the discovered knowledge, assist in understanding the problem, and can be used to make future predictions accordingly.
+It's useful in downstream fields such as ML which is all about looking through the datasets and trying to build complex model.
+
+## Machine Learning
+ML algorithm often specifies the way the data is transformed from input-to-output
+and how the model determines the appropriate mapping (learning) within input-to-output
+
+> ML methods is the foundation for most AI solutions
+
+### How do machines learn?
+Through accumulating & evaluating data.
+2 types of ML methods in terms of existing of labels
+
+### Supervised Learning
+relationship between input and outputs from old data is learnt as example. 
+Can be used to make predictions for new input data.
+
+ex) Decision trees, neural networks, support vector machines, random forest.
+
+### Unsupervised Learning
+Tries to make sense of the data without labelled responses by representing it in another form.
+It identifies clusters or groups and frequent patterns in the data.
+
+ex) clustering, association rule mining, neural networks
+
+## AI
+Broad area that makes machines seem to have human intelligence.
+AI is a software that solves complex problems.
+
+Nowadays, it's usage is narrowed to specific usages embedded in everyday life, like face-ID using processing AI, netflix using recommendation engines, google Home using voice recognition tech.
+
+but it is still amazingly powerful.
+
+Modern algorithms are good at digesting gigantic datasets that human could never and they are brilliant is using that data to explain the past
+and predict the future.
+
+Whether it is prediction, automation, planning, targeting or personalisation, AI is transforming it all.
+
+### Common tasks in AI
+
+- reasoning
+- knowledge representation
+- planning
+- learning
+- NLP
+- perception
+- pattern recognition
+
+## Relationships DA, DS, AI, ML
+All of them are related to each other, often used interchangeably and conflated with each other irl.
+But they are all distinct fields depending on the context
+
+### Data science vs Data analytics 
+difference: scope
+Data scientist's role is far broader even though they work on the same data sets
+So data scientist starts their career as DA.
+
+DS is expected to forecast the future based on past patterns, whike
+DA extract meaningful insights from various data source.
+
+DS creates questions, DA finds the answers.
+
+### Machine Learning vs AI
+Machine learning is a subset of AI
+
+![Screenshot 2025-02-23 at 3.13.55 PM.png](../assets/img/screenshots/32130/Screenshot%202025-02-23%20at%203.13.55%E2%80%AFPM.png)
+
 ## Working with Google Colab
 
 remember that computers can't handle strings, they must be converted to integers
@@ -114,19 +184,22 @@ This is called the <font color="olivegrab">iterative procedure</font> for model 
 ## KNIME
 
 Relative % value of 70 is training and 30 is testing
-
 ![Screenshot 2025-02-21 at 12.06.05 PM.png](../assets/img/screenshots/32130/Screenshot%202025-02-21%20at%2012.06.05%E2%80%AFPM.png)
 
 square is model icon
+
 ![Screenshot 2025-02-21 at 12.09.22 PM.png](../assets/img/screenshots/32130/Screenshot%202025-02-21%20at%2012.09.22%E2%80%AFPM.png)
 
 right click scorer to open view to see the performance of the trained model
+
 ![Screenshot 2025-02-21 at 12.11.04 PM.png](../assets/img/screenshots/32130/Screenshot%202025-02-21%20at%2012.11.04%E2%80%AFPM.png)
 
 Workflow pipeline
+
 ![Screenshot 2025-02-21 at 12.11.35 PM.png](../assets/img/screenshots/32130/Screenshot%202025-02-21%20at%2012.11.35%E2%80%AFPM.png)
 
 configure and execute.
+
 
 throughout the module we will learn how to configure each nodes and the techniques will help us manipulate this to create a better work flow.
 

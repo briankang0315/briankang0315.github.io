@@ -1,7 +1,7 @@
 ---
 title: "Technology & Innovation Management (49016) Week 1"
 date: 2025-02-18 18:00:00 +1100
-categories: [ Masters, Management ]
+categories: [ Masters, Tech & Innov Management ]
 tags: [ 석사, Masters, Tech and Innov Management, "49016"]
 author: <author_id>   
 ---
