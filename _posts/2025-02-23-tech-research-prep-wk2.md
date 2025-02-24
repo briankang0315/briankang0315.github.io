@@ -483,12 +483,12 @@ To what extent can AI-driven project management tools reduce software developmen
 rates?
 
 ## Research Interest 
-a) Business & Technology, (government IT projects, startups, enterprise software dev)
-b) AI & Project Management 
-c) IT projects fail 70% of the time, due to delays, over-budget, failure, AI PM tools could predict and mitigate risks and improve decision-making
-d) AI, Projects, Success rates, Software development, Project Failures, Agile, ML / AI in PM
+a) Business & Technology, (government IT projects, startups, enterprise software dev)<br/>
+b) AI & Project Management <br/>
+c) IT projects fail 70% of the time, due to delays, over-budget, failure, AI PM tools could predict and mitigate risks and improve decision-making<br/>
+d) AI, Projects, Success rates, Software development, Project Failures, Agile, ML / AI in PM<br/>
 e) AI - simulate human intelligence, AI PM TOOLS - predicts project risks, optimize schedules and workflows and assist decision-making.
-Project failure - failure in meeting project scope, budget, time and quality, leading in critical cost.
+Project failure - failure in meeting project scope, budget, time and quality, leading in critical cost.<br/>
 f) Management - it's about AI supporting PM, aiding decision-making for PM
 Socio-technical - AI impacting human roles in PM, interaction between the tool and PM
 Technical - AI methods used in tool, AI risk management algorithms

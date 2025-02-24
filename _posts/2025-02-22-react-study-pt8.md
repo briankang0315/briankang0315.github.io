@@ -108,6 +108,13 @@ export default function Todos() {
 }
 ```
 
+- 컴포넌트가 처음 렌더링될 때 useQuery가 실행됨
+- fetchTodos 함수가 실행되어 API에서 데이터를 가져옴
+- 로딩 중이면 isLoading === true → "로딩 중..." 표시
+- 데이터가 성공적으로 받아지면 isLoading === false, data에 저장됨
+- 에러가 발생하면 isError === true → "에러 발생!" 표시
+- 데이터를 성공적으로 받아오면 목록으로 출력 (<ul> 태그 안에 todo.title 표시)
+
 ### <b>주요 옵션</b>
 
 | 옵션 | 설명 |
@@ -155,6 +162,11 @@ export default function AddTodo() {
   );
 }
 ```
+- 버튼 클릭 → mutation.mutate() 실행
+- addTodo 함수 실행 → API에 새로운 할 일 추가
+- 성공 (onSuccess 실행) → 기존 todos 데이터 무효화 (invalidateQueries)
+- React Query가 자동으로 todos 데이터를 다시 불러옴
+- 새로운 목록이 화면에 업데이트됨
 
 ### <b>옵션</b>
 
