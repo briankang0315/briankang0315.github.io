@@ -1,5 +1,5 @@
 ---
-title: "프런트엔드 개발을 위한 테스트 입문: 챕터 5 (항해99 사전스터디)"
+title: "프런트엔드 개발을 위한 테스트 입문: 챕터 5.1 ~ 5.3 (항해99 사전스터디)"
 date: 2025-02-16 21:00:00 +1100
 categories: [ Programming, Frontend Testing ]
 tags: [ Testing, 항해99 ]

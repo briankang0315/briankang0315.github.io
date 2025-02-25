@@ -6,7 +6,7 @@ tags: [ 석사, Masters, Tech Research Prep, "32144"]
 author: <author_id>   
 ---
 
-# Reading wk2
+## Reading wk2
 
 ## What is Research
 Given a problem or an issue, a research question is framed that when answered, will address the issue.
@@ -62,7 +62,7 @@ Play safe, do not choose a topic that might lead you to break the law in the pro
 Consider the consequences, when choosing one, consider the ethical implications of doing the research, the consequences of the research for the participants
 
 ### Be specific
-![Screenshot 2025-02-23 at 3.37.18 PM.png](../assets/img/screenshots/32144/Screenshot%202025-02-23%20at%203.37.18%E2%80%AFPM.png)
+![Screenshot 2025-02-23 at 3.37.18 PM.png](../assets/img/screenshots/32144/wk2/Screenshot%202025-02-23%20at%203.37.18%E2%80%AFPM.png)
 
 ### Factors influencing the topics
 
@@ -141,7 +141,7 @@ taxonomy of literature reviews. Knowledge in Society, 1,
 
 Cooper suggests that LR can be classified to 6 characteristics (Focus, Goal, Perspective, Coverage, Organization, Audience)
 
-![Screenshot 2025-02-23 at 4.06.46 PM.png](../assets/img/screenshots/32144/Screenshot%202025-02-23%20at%204.06.46%E2%80%AFPM.png)
+![Screenshot 2025-02-23 at 4.06.46 PM.png](../assets/img/screenshots/32144/wk2/Screenshot%202025-02-23%20at%204.06.46%E2%80%AFPM.png)
 
 #### Focus
 4 potential foci
@@ -197,7 +197,7 @@ units: articles that are viewed
 
 Validity and reliability issues, iterative stages and mixed stages both applies to primary & secondary
 
-![Screenshot 2025-02-23 at 4.36.28 PM.png](../assets/img/screenshots/32144/Screenshot%202025-02-23%20at%204.36.28%E2%80%AFPM.png)
+![Screenshot 2025-02-23 at 4.36.28 PM.png](../assets/img/screenshots/32144/wk2/Screenshot%202025-02-23%20at%204.36.28%E2%80%AFPM.png)
 
 ### Problem formulation
 Once the type of review has been identified, focus is on problem formulation.
@@ -329,7 +329,7 @@ Steps of phenomenological review mirror the steps of phenomenological research.
 
 ### Evaluating a Literature Review
 
-![Screenshot 2025-02-23 at 10.40.02 PM.png](../assets/img/screenshots/32144/Screenshot%202025-02-23%20at%2010.40.02%E2%80%AFPM.png)
+![Screenshot 2025-02-23 at 10.40.02 PM.png](../assets/img/screenshots/32144/wk2/Screenshot%202025-02-23%20at%2010.40.02%E2%80%AFPM.png)
 
 (Boote, D. N., & Beile, P. (2005). Scholars before researchers:
 On the centrality of the dissertation literature review in
@@ -381,7 +381,7 @@ It helps:
 
 #### Stakeholder table
 
-![Screenshot 2025-02-23 at 11.17.54 PM.png](../assets/img/screenshots/32144/Screenshot%202025-02-23%20at%2011.17.54%E2%80%AFPM.png)
+![Screenshot 2025-02-23 at 11.17.54 PM.png](../assets/img/screenshots/32144/wk2/Screenshot%202025-02-23%20at%2011.17.54%E2%80%AFPM.png)
 
 `+` Potential positive impact on interest
 `–` Potential negative impact on interest
@@ -398,7 +398,7 @@ Important to not neglect the primary stakeholders even if they have low influenc
 
 > Importance: Priority given by the project to satisfying the needs and interest of each stakeholder.
 
-![Screenshot 2025-02-23 at 11.24.32 PM.png](../assets/img/screenshots/32144/Screenshot%202025-02-23%20at%2011.24.32%E2%80%AFPM.png)
+![Screenshot 2025-02-23 at 11.24.32 PM.png](../assets/img/screenshots/32144/wk2/Screenshot%202025-02-23%20at%2011.24.32%E2%80%AFPM.png)
 
 `A`: High importance to the project but with low influence. They need special initiatives to ensure their interests are protected.
 `B`: High importance and high influence, important to develop good working relationships with these stakeholders to ensure adequate support for the project
@@ -425,7 +425,7 @@ active participation results in:
 - Improved transparency and accountability - stakeholders are given info and decision-making power
 - Improved equity - if the needs, interests and abilities of all stakeholders are taken into account
 
-![Screenshot 2025-02-24 at 10.44.43 AM.png](../assets/img/screenshots/32144/Screenshot%202025-02-24%20at%2010.44.43%E2%80%AFAM.png)
+![Screenshot 2025-02-24 at 10.44.43 AM.png](../assets/img/screenshots/32144/wk2/Screenshot%202025-02-24%20at%2010.44.43%E2%80%AFAM.png)
 
 active participation is likely to have more benefits, but doesn't guarantee a success in a project.
 and full participation takes time and conflicting interest will arise.
@@ -448,7 +448,7 @@ possible issues:
 #### Participation matrix
 Important to keep revising this table, we might have unexpected changes
 
-![Screenshot 2025-02-24 at 11.04.54 AM.png](../assets/img/screenshots/32144/Screenshot%202025-02-24%20at%2011.04.54%E2%80%AFAM.png)
+![Screenshot 2025-02-24 at 11.04.54 AM.png](../assets/img/screenshots/32144/wk2/Screenshot%202025-02-24%20at%2011.04.54%E2%80%AFAM.png)
 
 after completion, think of how the participation might actually happen.
 
@@ -477,10 +477,7 @@ seasonal problems
 - population – numbers, age and sex profile
 - social systems and structures – religious divisions, status of women, social institutions
 
-# Tutorial Preparation
-
-To what extent can AI-driven project management tools reduce software development failures and improve project success
-rates?
+## Tutorial Preparation
 
 ## Research Interest 
 a) Business & Technology, (government IT projects, startups, enterprise software dev)<br/>
@@ -532,3 +529,124 @@ to be born.
 
 - Job market
 
+## Lecture
+
+Methodical: Critical Thinking, Critical Reading & Critical Writing
+
+this is how you need to work on your assignments
+
+![Screenshot 2025-02-25 at 10.19.14 AM.png](../assets/img/screenshots/32144/wk2/Screenshot%202025-02-25%20at%2010.19.14%E2%80%AFAM.png)
+
+## Critical Thinking
+is necessary when a choice is required 
+- uncertainty exists 
+- no one right answer
+
+- be objective. Methodologically analyse the problem based on context and facts (Citations)
+- Analysing facts to understand the problem
+- Using triangulation. Using multiple sources of data or multiple approaches to analysing data to enhance the credibility of a research study through balance argument
+- Address a situation based on all available facts and info. Using critical thinking includes sorting and organising facts, data and other info to define a problem and develop effective solutions
+
+### Skills of Critical Thinking
+#### Observation 
+Starting point, quickly sense and identify new fact.
+Understand why something might be an issue, Tolerate ambiguity
+
+#### Analysis
+Knowing what facts, data or info about the problem are:
+importance, their context, cause and effect on potential solution
+
+#### Collaboration
+Explain, discuss and learn about issues and possible solutions
+Identify others' positions, assertions and claims - and their limitations
+Evaluate evidence from alernative points of view (social triangulation)
+Weigh up arguments and evidence in a balanced way
+Recognize false logic and other persuasive devices
+Persevere through researching and drafting arguments
+
+#### Inference
+Drawing conclusions about info to develop an answer
+
+#### Problem Solving
+Execute the solution
+
+### Information Literacy - supporting critical thinking
+- recognize a need for info
+- Distinguish way to address info gaps
+- Construct strategies for locating info
+- Locate and access info
+- Compare and evaluate info obtained from different sources
+- Organize, apply and communicate info to others
+- Synthesize and build upon existing info, contributing to the creation of new knowledge
+
+### Principles supporting critical reading
+- Have respect 
+- Be open and fair
+- Recognise your cultural, personal bias
+- Appreciate difference
+- Possess healthy scepticism
+- Think about issues as a whole
+- Avoid accepting generalisations
+- Justify arguments through robust evaluation of evidence
+- Develop different approaches to reading texts
+
+## Different types of Critical Thinking
+### Inspectional Reading
+systematic skimming
+
+1. Does this book deserve reading? Check TOC, indexes, references, quick skim
+2. Superficial reading, read without stopping, gain overall impression
+3. More detailed reading, select some sections you want to follow up and reread.
+
+### Analytical Reading
+Make notes and diagrams of the book's structure, key concepts, discussions between books
+1. Classify/Prioritize book
+2. Summarize book in a sentence or paragraph
+3. Show book's concept organisations
+4. More details
+
+### Syntopical Reading
+read numerous books on same subject, compare and contrast ideas
+1. Build a bibliography 
+2. Find relevant passages and add simple notes to bibliography creating a knowledge map
+3. Common agreements 
+4. Clarification of positions
+5. Define issues
+6. Analyse discussions
+7. Both work in progress and your main reference
+
+## Check Author's Credentials
+- Who is the author, what are their area of expertise; number of citations; institutional connections
+- When was the text published or updated, is it recent enough for your topic?
+- How much of the content is fact and how much opinion? Is the language objective or emotive? Is it balanced? 
+- Is the argument supported by evidence? What kind of evidence? How is the argument developed? 
+
+## Assessing Reliability
+- Identify authors' evidence for their main points of argument, hypotheses, results and conclusions (Refer back to your lists, tables or diagrams of these ideas with referencing info)
+- A good way to identify if the results of an experiment are reliable is to check how many participants were involved in the study, and if the results were calculated appropriately for the context of the study.
+
+## Identifying bias
+- check the info whether it has bias init, check if source analyses and evaluates a range of other perspective
+- if bias is present, find another counter-argument source
+- Check if article or author is sponsored by a company that would benefit financially from the results
+- Do a brief online search for the companies listed to check for potential bias
+
+## Clarification
+- Clarify your task, make sure it meets the requirement of the rubric
+- How are you required to write? Review academic writing and get help, talk to your tutor
+- Check that you understand the material you have read, Be sure to read and also review sources carefully, but also review lecture notes and assessment tasks handout.
+
+## Reviewing, organising content, planning
+
+- make lists, tables or diagrams of ideas with referencing info (page numbers) so you can track where you retrieved info from
+- Use a literature review matrix
+- May need to revisit texts, understand and develop different approaches to reading texts (Inspectional, Analytical, Syntopical)
+
+## Submission
+- Read carefully for grammar, syntax, spelling and layout
+- Check in-text citations and bibliography, do you need better support for facts/methodology/reasoning? (if you make 3 mistakes on referencing you lose all marks on referencing.)
+- Trace your arguments from initial assumptions to evaluation to logical conclusion, does it make sense?
+- Make sure your arguments are reasoned, valid, and relevant to your research topic. Does the content fit the rubric requirements? 
+- Have you completely answered all the rubric requirements at the highest level? 
+- Have you entered all the ID required. 
+- 

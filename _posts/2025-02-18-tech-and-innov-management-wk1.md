@@ -6,7 +6,7 @@ tags: [ 석사, Masters, Tech and Innov Management, "49016"]
 author: <author_id>   
 ---
 
-![Atlassian-Logo.jpg](../assets/img/screenshots/49016/week1/Atlassian-Logo.jpg)
+![Atlassian-Logo.jpg](../assets/img/screenshots/49016/wk1/Atlassian-Logo.jpg)
 Atlassian senior manager attended our lecture
 
 - Innovation
@@ -47,11 +47,11 @@ Disciplines: Psych, Business, Economics, Psych
 "if you're happy, you create a good result, which gets you marks"
 
 ### Innovation cycles
-![Screenshot 2025-02-18 at 7.20.53 PM.png](../assets/img/screenshots/49016/week1/Screenshot%202025-02-18%20at%207.20.53%E2%80%AFPM.png)
+![Screenshot 2025-02-18 at 7.20.53 PM.png](../assets/img/screenshots/49016/wk1/Screenshot%202025-02-18%20at%207.20.53%E2%80%AFPM.png)
 
 almost like playing a game of Factorio
 
-![Screenshot 2025-02-18 at 7.29.22 PM.png](../assets/img/screenshots/49016/week1/Screenshot%202025-02-18%20at%207.29.22%E2%80%AFPM.png)
+![Screenshot 2025-02-18 at 7.29.22 PM.png](../assets/img/screenshots/49016/wk1/Screenshot%202025-02-18%20at%207.29.22%E2%80%AFPM.png)
 
 ## Creativity 
 
@@ -65,7 +65,7 @@ Difference between the terms
 Creativity is the process of generating new ideas while
 Innovation is the process of putting those ideas into practice
 
-![The-relation-between-creativity-and-innovation-indicating-the-inclusive-and-distinctive.png](../assets/img/screenshots/49016/week1/The-relation-between-creativity-and-innovation-indicating-the-inclusive-and-distinctive.png)
+![The-relation-between-creativity-and-innovation-indicating-the-inclusive-and-distinctive.png](../assets/img/screenshots/49016/wk1/The-relation-between-creativity-and-innovation-indicating-the-inclusive-and-distinctive.png)
 
 ## Creative Thinking
 
@@ -84,7 +84,7 @@ Organisations over utilise convergent and under utilise divergent thinking
 
 Fear of failure often discourages divergent thinking
 
-![Screenshot 2025-02-18 at 8.09.24 PM.png](../assets/img/screenshots/49016/week1/Screenshot%202025-02-18%20at%208.09.24%E2%80%AFPM.png)
+![Screenshot 2025-02-18 at 8.09.24 PM.png](../assets/img/screenshots/49016/wk1/Screenshot%202025-02-18%20at%208.09.24%E2%80%AFPM.png)
 
 ## TRIZ
 Theory of Inventive Problem Solving
@@ -94,7 +94,7 @@ or industry.
 
 ## de Bono's Six Thinking Hat
 
-![six+thinking+hats+illustration.png](../assets/img/screenshots/49016/week1/six%2Bthinking%2Bhats%2Billustration.png)
+![six+thinking+hats+illustration.png](../assets/img/screenshots/49016/wk1/six%2Bthinking%2Bhats%2Billustration.png)
 
 ## Kodak 
 
@@ -124,18 +124,40 @@ Significant contribution is the result of thinking outside the box - considering
 - Failing to get sponsership and build coalitions
 
 ### Power of Autonomy 
+Google's 20% rule - resulted in Google Translate, News, Sky etc
+In a typical year, more than HALF of google's product come from this period of pure AUTONOMY.
 
 ### Collboration 
+POST-IT
+Art Fry & Spencer Silver, the idea and the marketing getting together to make great things happen
 
 ## Innovation Theory
 
 ### S- Curve
-formation and growth of innovations
+S-curve refers to the formation and growth of innovations from the beginning to reaching maturity
+
+Goes through different phases (entrepreneurial, growth and declining) due to 
+1. the advancement of tech
+2. the progressive user requirements
+3. unfolding externalities
+4. availability of complementary tech
+5. competition
+
+![Screenshot 2025-02-25 at 3.21.58 PM.png](../assets/img/screenshots/49016/wk1/Screenshot%202025-02-25%20at%203.21.58%E2%80%AFPM.png)
+
+> along the path of evolution, quality increases and cost decreases.
 
 ### Dominant Design
+This shows that when a product design is adopted by the majority of producers, typically creating a stable architecture on which the industry can focus its efforts.
 
+Both producers and customers begin to arrive at some consensus about the desired product attributes
+
+Once this design is selected, producers and customers focus their efforts on improving their efficiency in processes (manufacturing, delivering, marketing, deploying etc)
+
+![Screenshot 2025-02-25 at 3.25.08 PM.png](../assets/img/screenshots/49016/wk1/Screenshot%202025-02-25%20at%203.25.08%E2%80%AFPM.png)
 ### Gartner Hype Cycle
 Investment also is related to it, industry would see where the world is about what they want to invest.
 
+![Screenshot 2025-02-25 at 3.34.27 PM.png](../assets/img/screenshots/49016/wk1/Screenshot%202025-02-25%20at%203.34.27%E2%80%AFPM.png)
 
 WazokuCrowd - Innovation Crowd 

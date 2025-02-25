@@ -95,7 +95,7 @@ and support decision-making. It operates around inspecting, cleansing, transform
 They may use data analytics when deciding which varieties of Coke to order, and in what quantities.
 
 Hypothetical supermarket would collect sales data for each coke variety and perform a simple sum, from that they might think Classic Coke has the most sales, so the supermarket stock more of that.
-![Screenshot 2025-02-21 at 5.18.20 PM.png](../assets/img/screenshots/32130/Screenshot%202025-02-21%20at%205.18.20%E2%80%AFPM.png)
+![Screenshot 2025-02-21 at 5.18.20 PM.png](../assets/img/screenshots/32130/wk1/Screenshot%202025-02-21%20at%205.18.20%E2%80%AFPM.png)
 ### Nappies Example
 Walmart analysed its sales data and found beer and diapers are being purchased together on a Friday Night,
 they theorised that a number of fathers of young children were purchasing those two together on the way home.
@@ -169,7 +169,7 @@ DS creates questions, DA finds the answers.
 ### Machine Learning vs AI
 Machine learning is a subset of AI
 
-![Screenshot 2025-02-23 at 3.13.55 PM.png](../assets/img/screenshots/32130/Screenshot%202025-02-23%20at%203.13.55%E2%80%AFPM.png)
+![Screenshot 2025-02-23 at 3.13.55 PM.png](../assets/img/screenshots/32130/wk1/Screenshot%202025-02-23%20at%203.13.55%E2%80%AFPM.png)
 
 ## Working with Google Colab
 
@@ -184,19 +184,19 @@ This is called the <font color="olivegrab">iterative procedure</font> for model 
 ## KNIME
 
 Relative % value of 70 is training and 30 is testing
-![Screenshot 2025-02-21 at 12.06.05 PM.png](../assets/img/screenshots/32130/Screenshot%202025-02-21%20at%2012.06.05%E2%80%AFPM.png)
+![Screenshot 2025-02-21 at 12.06.05 PM.png](../assets/img/screenshots/32130/wk1/Screenshot%202025-02-21%20at%2012.06.05%E2%80%AFPM.png)
 
 square is model icon
 
-![Screenshot 2025-02-21 at 12.09.22 PM.png](../assets/img/screenshots/32130/Screenshot%202025-02-21%20at%2012.09.22%E2%80%AFPM.png)
+![Screenshot 2025-02-21 at 12.09.22 PM.png](../assets/img/screenshots/32130/wk1/Screenshot%202025-02-21%20at%2012.09.22%E2%80%AFPM.png)
 
 right click scorer to open view to see the performance of the trained model
 
-![Screenshot 2025-02-21 at 12.11.04 PM.png](../assets/img/screenshots/32130/Screenshot%202025-02-21%20at%2012.11.04%E2%80%AFPM.png)
+![Screenshot 2025-02-21 at 12.11.04 PM.png](../assets/img/screenshots/32130/wk1/Screenshot%202025-02-21%20at%2012.11.04%E2%80%AFPM.png)
 
 Workflow pipeline
 
-![Screenshot 2025-02-21 at 12.11.35 PM.png](../assets/img/screenshots/32130/Screenshot%202025-02-21%20at%2012.11.35%E2%80%AFPM.png)
+![Screenshot 2025-02-21 at 12.11.35 PM.png](../assets/img/screenshots/32130/wk1/Screenshot%202025-02-21%20at%2012.11.35%E2%80%AFPM.png)
 
 configure and execute.
 
