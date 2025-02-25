@@ -124,7 +124,7 @@ const fetchTodos = async () => {
 
 export default function Todos() {
   const {data, isLoading, isError} = useQuery({
-    queryKey: ["todos"],
+    queryKey: ["todos"], // 변수에 의존하는 쿼리이면 ["todos", 변수]로 추가해야함
     queryFn: fetchTodos,
   });
 
