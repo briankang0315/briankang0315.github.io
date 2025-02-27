@@ -1,5 +1,5 @@
 ---
-title: "Project Management Week 2"
+title: "Project Management Week 2 (32541)"
 date: 2025-02-24 17:00:00 +1100
 categories: [ Masters, Project Management ]
 tags: [ 석사, Masters, Project Management, "32541" ]
@@ -9,12 +9,23 @@ author: <author_id>
 ## What is a Project 
 Temporary, unique, definite start and an end, produces a service or a product.
 
-## What is a Process
+Set of activities that consume resources, carried out to an agreed scope, agreed duration, agreed cost, with the purpose of producing an output to an agreed quality.
+
+### What is a Process
 Permanent, Repetitive, Can being whenever, Produces a service or product
 
 Q) "Project is to paint a wall in the house" <br/>A) this is NOT a project
 
-there is no deadline, no specific criterias
+there is no deadline, no specific criteria
+
+### What is a program
+Bunch of projects 
+obtains benefits and conflicts you can't get on individual projects
+
+### What is a portfolio
+Bunch of programs
+Multiple year
+managed as a mix of programs or major projects
 
 ## Project management
 Bigger picture, how organisational resources are being used
@@ -29,6 +40,46 @@ Performance management of projects
 
 A clear definition of benefits
 
+nowadays: 
+
+need to view it as a holistic view (as a whole bigger picture)
+
+## Strategy
+Organisational culture:
+(project -> program -> portfolio -> strategy)
+
+### Holistic Approach
+includes:
+
+- project selection
+- Monitoring aggregate resource levels and skills
+- Use of best practices
+- Balancing projects in a portfolio
+- Improving communication among all stakeholders
+- An organisational perspective, beyond silo thinking
+- Improving management of projects over time.
+
+### Knowledge Areas 
+
+1. Integration 
+2. Scope
+3. Time
+4. Cost
+5. Quality
+6. (Human) Resource
+7. Communications
+8. Risk
+9. Procurement
+10. Stakeholder
+
+### issue vs risk
+issue is something that needs to be addressed right now
+but risk is something that can happen.
+
+### procurement
+means buying, request for quote, you might get vendors and 
+procurement is to see what's the best value for money. (quality is important tho)
+
 ## Role of a PM
 - Recognise the different interests of stakeholders
 - Reconcile competing interests between stakeholders 
@@ -42,6 +93,7 @@ A clear definition of benefits
 |problem solver | resolves conflict|
 |motivator|
 
+
 ## Why is Project Management Important
 
 ### Iron triangle
@@ -51,7 +103,7 @@ PM can trade between constraints.
 
 ![Screenshot 2025-02-24 at 5.27.32 PM.png](../assets/img/screenshots/32541/wk2/Screenshot%202025-02-24%20at%205.27.32%E2%80%AFPM.png)
 
-### Project  life cycles
+### Project life cycles
 
 ![Screenshot 2025-02-24 at 5.35.35 PM.png](../assets/img/screenshots/32541/wk2/Screenshot%202025-02-24%20at%205.35.35%E2%80%AFPM.png)
 
@@ -124,5 +176,4 @@ Intended Details – scope, timelines, risk, stakeholders, including team member
 Check for completeness of project charter
 
 Project selected will be carried on the whole semester 
-
 

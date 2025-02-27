@@ -48,8 +48,7 @@ topic must be justified for the evaluators, do not presume that they share the s
 
 The topic should fit well with the requirements of the academics, sponser or for whom the proposal is being written.
 
-### Researchable topics
-
+## Researchable topics
 | Not                                                                               | Researchable                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Should Uk become a republic (political judgment required)                         | What would be the constitutional change needed to make the UK a republic?<br/> Is public opionin in favour of retaining the monarchy?                                           |
