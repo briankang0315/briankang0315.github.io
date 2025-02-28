@@ -49,6 +49,7 @@ topic must be justified for the evaluators, do not presume that they share the s
 The topic should fit well with the requirements of the academics, sponser or for whom the proposal is being written.
 
 ## Researchable topics
+
 | Not                                                                               | Researchable                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Should Uk become a republic (political judgment required)                         | What would be the constitutional change needed to make the UK a republic?<br/> Is public opionin in favour of retaining the monarchy?                                           |
@@ -647,5 +648,4 @@ read numerous books on same subject, compare and contrast ideas
 - Trace your arguments from initial assumptions to evaluation to logical conclusion, does it make sense?
 - Make sure your arguments are reasoned, valid, and relevant to your research topic. Does the content fit the rubric requirements? 
 - Have you completely answered all the rubric requirements at the highest level? 
-- Have you entered all the ID required. 
-- 
+- Have you entered all the ID required.
