@@ -93,7 +93,9 @@ procurement is to see what's the best value for money. (quality is important tho
 |problem solver | resolves conflict|
 |motivator|
 
+### Competencies of PM
 
+![Screenshot 2025-03-02 at 4.47.06 PM.png](../assets/img/screenshots/32541/wk2/Screenshot%202025-03-02%20at%204.47.06%E2%80%AFPM.png)
 ## Why is Project Management Important
 
 ### Iron triangle

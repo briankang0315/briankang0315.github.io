@@ -71,11 +71,128 @@ uses tools like SAS, Oracle, SQL server, and R to help companies develop strateg
 Create reports that a company's executives can use to make informed decisions about running their business.
 
 Responsibilities: 
+
 Collect data from various systems within an org and then transform it into meaningful info that can be analyzed.
 Results are then presented back to decision-makers, so they can use them to make better decisions regarding operational process etc.
 
 
+### Data Engineer
+collect, store, analyze and report on, visualize various forms of data for business purposes.
+Bridge between developers, and data scientsits.
+
+Responsibilities: 
+
+Task to collecting, storing, analzying huge volumes of structured and unstructured data.
+
+### Data analyst
+
+Analyzes raw data to derive meaning and glean insights that can be used to improve business operaitons.
+Can help businesses interpret info, from customer behaviours to employment trends, using a business intelligence platform and data visualization tools
+to work with their company's raw data.
+
+Responsibilities: 
+
+Working with spreadsheets, analyzing large datasets using statistical software, writing reports and presenting.
+
+--- 
+Data Analysts are one of THE most sought after professionals in the world.
+
+The role of the data analyst has become increasingly important during the internet age, with employment opportunities in
+industries ranging from financeLinks to an external site. to marketing to social media.
+In addition to knowing your way around computers, data analysts must also be well-versed in statistical methods and
+models.
+Big data and machine learning are among the cutting-edge applications of data analysis.
+
+### Decision scientist
+
+Utilizes scientific methods, like data analytics, statistics and ML to solve business problems. 
+Work with algos that help them analyze data quickly to determine which options produce optimal results. 
+
+Responsibilities:
+
+Developing mathematical models, applying statistical analysis techniques, creating algos, identifying trends and patterns within datasets
+, building predictive models and interpreting results to make recommendations.
+
+## What those data analyst do
+
+turn raw data into models that can be used to solve business problems. 
+
+![Screenshot 2025-03-02 at 2.18.27 PM.png](../assets/img/screenshots/32130/wk2/Screenshot%202025-03-02%20at%202.18.27%E2%80%AFPM.png)
+
+### Data mining process
+
+1. Business Problem
+
+We have to strongly frame a Business question - it could be "what are the different types of customer that we deal with?".
+Question can be broad in this stage
+
+2. Data Mining Problem
+
+We want to transform the Business Problem into a Data Analytics question by rephrasing and translating the terms to read more like an analysis task
+"Cluster the customer into different groups". Cluster is used as its a DA technique.
+
+3. Data Mining
+
+- Collect relevant data (internally or externally buying it from suppliers)
+- Prepare the data 
+- Understand it, process it and put it together by building some models
 
 
-AI learns from datas, and I feel like its answer will be based on the majority.
-would that somehow influence our thinking in the near future, as its responses and informations are of the majority
+can draw upon info, tools and techniques from many resources:
+- data warehousing
+- data information visualisation
+- methods and frameworks
+- knowledge discovery techniques
+
+4. Patterns
+
+we identify patterns within the models, it might demonstrate useful patterns that answer the business question, so we will need to evaluate them,
+
+If answered, done, but if not, we might need to tweak the question and run the processes again. 
+
+> Data mining is an iterative process.
+
+5. Business Intelligence
+
+Now we have the answer, deploy the model and results so business can act on it. May be in the form of presentation, a report or writing some software.
+
+By explaining your findings, you add value to the data and improve knowledge for better decision-making.
+
+## Approaches in Data Analytics
+
+### Knowledge Discovery in Database (KDD)
+Iterative process to produce appropriate knowledge, evaulation metrics can be developed, mining improved, new data integrated
+and transformed to produce different and more appropriate results.
+
+> Main goal: extract knowledge from a collection of data
+
+![Screenshot 2025-03-02 at 2.28.35 PM.png](../assets/img/screenshots/32130/wk2/Screenshot%202025-03-02%20at%202.28.35%E2%80%AFPM.png)
+
+> Iterate between process stages where necessary
+
+### Cross-Industry Standard Process for Data Mining (CRISP-DM)
+Base for a data science process, describes typical stages of a project in the context of business understanding, tasks
+related to each stage, and the relationships between these tasks.
+
+helps to focus on building real business values
+
+![Screenshot 2025-03-02 at 2.35.06 PM.png](../assets/img/screenshots/32130/wk2/Screenshot%202025-03-02%20at%202.35.06%E2%80%AFPM.png)
+
+## Statistical Approaches
+
+### Descriptive statistics 
+minimum, maximum, median and mean.
+
+gives us summary statistics that can describe a whole group of data. 
+
+### Predictive statistics
+using statistics to make forecasts and inferences
+
+## Results
+Data analytics result needs to be understandable by humans, easily read and accurate on computers.
+
+![Screenshot 2025-03-02 at 2.38.44 PM.png](../assets/img/screenshots/32130/wk2/Screenshot%202025-03-02%20at%202.38.44%E2%80%AFPM.png)
+
+## Ethical Principles
+
+Transparency, Fairness, accountability, privacy and community benefit.
