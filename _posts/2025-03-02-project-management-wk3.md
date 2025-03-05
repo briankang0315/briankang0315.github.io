@@ -25,17 +25,10 @@ Scope management: process of creating a scope management plan that documents how
 
 ![Screenshot 2025-03-02 at 4.57.49 PM.png](../assets/img/screenshots/32541/wk3/Screenshot%202025-03-02%20at%204.57.49%E2%80%AFPM.png)
 
----
-title: "Fundamentals of Data Analytics (32130) Week 3"
-date: 2025-03-03 16:00:00 +1100
-categories: [ Masters, Data Analytics ]
-tags: [ 석사, Masters, Data Analytics, "32130" ]
-author: <author_id>
----
-
-Escient guest speaker: Jen Dolden, Victor de Blecourt
 
 ## Agile
+
+Escient guest speaker: Jen Dolden, Victor de Blecourt
 
 ### Case study healthcare.gov
 
