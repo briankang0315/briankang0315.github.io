@@ -25,6 +25,13 @@ Scope management: process of creating a scope management plan that documents how
 
 ![Screenshot 2025-03-02 at 4.57.49 PM.png](../assets/img/screenshots/32541/wk3/Screenshot%202025-03-02%20at%204.57.49%E2%80%AFPM.png)
 
+### SMART objectives
+
+![Screenshot 2025-03-05 at 7.24.18 PM.png](../assets/img/screenshots/32541/wk3/Screenshot%202025-03-05%20at%207.24.18%E2%80%AFPM.png)
+
+### Deliverables
+Define expected outputs over the life of the project. (Tangible, verifiable products)
+
 
 ## Agile
 
@@ -189,3 +196,5 @@ Ex) Outlook
 ### when agile? when waterfall?
 
 ![Screenshot 2025-03-03 at 5.57.23 PM.png](../assets/img/screenshots/32541/wk3/Screenshot%202025-03-03%20at%205.57.23%E2%80%AFPM.png)
+
+## 
