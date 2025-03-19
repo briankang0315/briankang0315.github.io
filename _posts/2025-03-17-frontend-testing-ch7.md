@@ -157,3 +157,33 @@ test("Failed", () => {
 
 또한, 첫 번째 방법의 테스트는 `useToastAction` (custom hook)도 포함해, 두번째 보다 더 넓은 범위의 통합 테스트이다.
 
+## Next.js 라우터와 렌더링 통합 테스트 - deprecated XXX
+
+header navigation을 담당하는 ui component를 테스트하는데
+
+현재 위치를 나타내는 스타일을 활성화하는 header ui 이다
+
+### next-router-mock
+
+라우터 부분을 테스트하려면 목 객체를 사용해야한다. 
+next-router-mock은 jest에서 nextjs의 라우터를 테스트할 수 있도록 목객체를 제공하는 라이브러리다
+
+<Link> 컴포넌트에서 발생한 라우터 변화, useRouter를 활용한 URL 참조 혹은 변경에 대한 통합 테스트를 jsdom에서 실행할 수 있다.
+
+
+### test.each
+
+동일한 테스트를 매개변수만 변경해 반복하고 싶다면, test.each를 사용
+
+```typescript
+test.each([
+  {url: "asdfasdf", name: "url1"},
+  {url: "asfdasdaaa", name: "url2"}
+])("$url의 현재 위치는 $name이다", ({url, name}) =>{
+  mockRouter.setCurrentUrl(url);
+  render(<Nav onCloseMenu={() => {}}/>);
+  const link = screen.getByRole("link", {name});
+  expect(link).toHaveAttribute("aria-current", "page");
+});
+```
+
