@@ -168,7 +168,7 @@ header navigation을 담당하는 ui component를 테스트하는데
 라우터 부분을 테스트하려면 목 객체를 사용해야한다. 
 next-router-mock은 jest에서 nextjs의 라우터를 테스트할 수 있도록 목객체를 제공하는 라이브러리다
 
-<Link> 컴포넌트에서 발생한 라우터 변화, useRouter를 활용한 URL 참조 혹은 변경에 대한 통합 테스트를 jsdom에서 실행할 수 있다.
+`<Link>` 컴포넌트에서 발생한 라우터 변화, useRouter를 활용한 URL 참조 혹은 변경에 대한 통합 테스트를 jsdom에서 실행할 수 있다.
 
 
 ### test.each
