@@ -20,7 +20,7 @@ Many managers cite delivering projects on time as a major challenge.
 Time has very little flexibility.
 
 1. Define activities (planning)
-2. Sequence activies (planning)
+2. Sequence activities (planning)
 3. estimate duration (planning)
 4. develop schedule  (planning)
 5. monitor and control schedule
@@ -50,6 +50,7 @@ Identify with unique number (or letters)
 Conditional statements and looping not allowed.
 (as this indicates that it's a process instead of a project.)
 
+
 ## Critical Path Method
 
 ### Forward Pass
@@ -57,3 +58,20 @@ Conditional statements and looping not allowed.
 ![Screenshot 2025-03-17 at 5.51.20 PM.png](../assets/img/screenshots/32541/wk5/Screenshot%202025-03-17%20at%205.51.20%E2%80%AFPM.png)
 
 ### Backward Pass
+
+
+## Schedule (Time) Management
+
+Process used to ensure the timely completion of project.
+
+Schedule to keep track of the progress.
+
+Time has very little flexibility, it keeps going
+
+Monitoring: comparing with baseline (plans)
+
+Controlling: taking action
+
+## Project Networks
+
+Project Network
