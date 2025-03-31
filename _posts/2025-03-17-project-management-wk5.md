@@ -72,6 +72,4 @@ Monitoring: comparing with baseline (plans)
 
 Controlling: taking action
 
-## Project Networks
 
-Project Network
