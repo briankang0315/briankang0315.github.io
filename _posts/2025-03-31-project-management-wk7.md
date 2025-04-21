@@ -123,4 +123,3 @@ insignificant, minor, moderate, major, catastrophic
 Risk matrix 
 ![Screenshot 2025-04-02 at 7.43.52 PM.png](../assets/img/screenshots/32541/wk7/Screenshot%202025-04-02%20at%207.43.52%E2%80%AFPM.png)
 
-Risk evaluation: 
